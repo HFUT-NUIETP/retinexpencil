@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNSDMFFD9W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-WNSDMFFD9W');
+  </script>
+  <link href="main.css" rel="stylesheet" media="all">
+  <title>CAD/Graphics20 - Teng Li et al.</title>
+  <style type="text/css">
+    .auto-style11 {
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: #FF0000;
+    }
+  </style>
+</head>
+
+<body>
+  <h2 class="auto-style1">Robust Pencil Drawing Generation via Fast Retinex Decomposition</h2>
+  <p class="auto-style7" align="center"><a href="http://info.terrytengli.com">Teng
+      Li</a><sup>[1]</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://ci.hfut.edu.cn/7932/list.htm">Shijie Hao</a><sup>[1, *]</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://ci.hfut.edu.cn/7932/list.htm">Yanrong Guo</a><sup>[1]</sup>
+  </p>
+  <p class="auto-style7" align="center"><a href="http://www.hfut.edu.cn/">1</a>&nbsp;&nbsp;Hefei University of
+    Technology</p>
+  [<a href="mailto:nuietp20@terrytengli.com">Email</a>]: tengli.terry@gmail.com
+  <p class="auto-style7" align="center">&nbsp;&nbsp;&nbsp; </p>
+  <p align="center">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+  <table align="center">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="" src="imgs/CAG-D-21-00089_fig1.png" width=900>
+        </td>
+        <td>
+
+      </tr>
+      <!-- <tr>
+		<td>Our Enhanced Result(right)</td>
+	</tr> -->
+
+    </tbody>
+  </table>
+
+
+  </p>
+  <p class="style2"><strong><span class="auto-style6">Abstract</span></strong></p>
+  <p class="auto-style5">As imaging devices have been rapidly developed, it is very convenient to obtain natural images
+    at all times and places.
+    As a step further, generating the visual effect of artistic paintings from natural images has become an attractive
+    image processing task, such as pencil drawing generation.
+    However, current pencil drawing generation methods mainly concentrate on simulating the pencil-drawing patterns,
+    while neglecting the complex illumination variations of an image.
+    Therefore, various unsatisfying effects can be inevitably introduced, in turn weakening the quality of the generated
+    pencil drawing patterns.
+    To address this problem, we present a novel pencil drawing generation method based on Retinex decomposition.
+    A mixed-norm Retinex image decomposition model is firstly proposed, which decomposes an image into an illumination
+    layer and a reflectance layer.
+    Then, with the obtained layers, the pencil line layer and tone layer are produced based on our simple but effective
+    models, respectively.
+    In experiments, the results show that our method consistently generates high-quality pencil drawing patterns from
+    images with different illumination conditions.
+    For example, as for the images with low light or back light, our method still ensures the visual quality of the
+    obtained pencil drawings.</p>
+  <p class="auto-style5">&nbsp;</p>
+
+  </p>
+  <p class="style2"><strong><span class="auto-style6">Conclusion and Outlook</span></strong></p>
+  <p class="auto-style5">
+    In this paper, we introduce a new method for generating a pencil drawing image from a natural image, which is robust
+    to the complex illumination conditions.
+    Firstly, by constructing a Retinex image decomposition model based on mixed norms, we stably obtain the illumination
+    layer and the reflectance layer from the input image.
+    On this basis, we build very simple but effective pencil line and tone generation models, respectively, producing
+    the pencil line layer and tone layer that well simulate some human drawing habits.
+    In experiments, we validate our method on the real-world photographs that have different illumination conditions.
+    The experimental results,
+    including the visual results and quantitative temporal costs and user rating scores , demonstrate the effectiveness
+    of our method.
+    <br>
+    Our method still has the following aspects of improvements.
+    First, we produce the color pencil drawing only based on the color space of a photorealistic image, which can be
+    still different from the color pattern of professional pencil drawings.
+    Second, our method still highly depends on low-level information, which possibly fails to carefully refine the
+    semantically important contents in our drawings.
+    We plan to focus on these two issues in the following research.
+  </p>
+  <p class="auto-style5">&nbsp;</p>
+
+  </p>
+  
+
+
+  <p class="auto-style4"><strong>Misc</strong></p>
+
+  <ul>
+    <li>
+      <p class="auto-style5" align="left" style="font-size:17px">[<a
+          href="https://github.com/HFUT-NUIETP/retinexpencil/tree/demo">code(demo)</a>]: The demo MATLAB implementation is released in this branch on Github.</p>
+    </li>
+    <li>
+      <p class="auto-style5" align="left" style="font-size:17px">[<a
+          href="https://github.com/HFUT-NUIETP/retinexpencil/tree/source">code(source)</a>]: The source code of MATLAB implementation is released in this branch on Github.</p>
+    </li>
+    <li>
+      <p class="auto-style5" align="left" style="font-size:17px">
+        [<a href="https://github.com/HFUT-NUIETP/retinexpencil/tree/demo/input">test data</a>]: The test data are collected from the Internet.</p>
+    </li>
+  </ul>
+
+  <br>
+
+  <p class="auto-style4"><strong>Paper Access</strong></p>
+  <table style="width: 90%;" border="0" cellpadding="2" cellspacing="4">
+    <tbody>
+      <tr colspan="2">
+        <td align="center" valign="center">
+          <img style="padding: 0pt; clear: both;" src="imgs/CAG-D-21-00089_fig2.png" alt="Snapshot for paper"
+            class="pdf" align="middle" border="0" width=100>
+        </td>
+        <td class="auto-style5" align="left">
+          "Robust Pencil Drawing Generation via Fast Retinex Decomposition"<br><br>
+
+          Teng Li, Shijie Hao, Yanrong Guo<br><br>
+          [C] <i>CAD/Graphics 2021</i>; [J] <i>Computers & Graphics</i>
+          <br>
+          The 17th International Conference on Computer-Aided Desigh and Computer Graphics <br><br>
+          <img alt="" src="imgs/pdf_icon.gif" height="32" width="31">&nbsp;&nbsp;
+          <!-- the pdf file of our paper will mot be upload until is pulic -->
+          [<a href="attachments/">Paper (pdf)</a>]<br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <p class="style2"><strong><span class="auto-style6">Acknowledgement</span></strong></p>
+
+  <p class="auto-style5">The research was supported by the National Undergraduate Innovation and En-trepreneurship
+    Training Program with Grant No. 202010359089.</p>
+
+  <br><br><br><br><br><br>
+
+  Latest update on Mar, 2021.
+
+</body>
+
+</html>
