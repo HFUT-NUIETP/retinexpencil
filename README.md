@@ -84,14 +84,16 @@ Pencil lines generation module in the released code is partly adopted from **[fu
 ## Cite Us
 
 ```
-@article{rtxpencil,
-  title={Robust Pencil Drawing Generation via Fast Retinex Decomposition},
-  author={Li, Teng and Hao, Shijie and Guo, Yanrong},
-  journal={Computers \& Graphics},
-  volume={},
-  pages={},
-  year={2021},
-  publisher={Elsevier}
+@article{LI202167,
+title = {Robust pencil drawing generation via fast Retinex decomposition},
+journal = {Computers & Graphics},
+volume = {97},
+pages = {67-77},
+year = {2021},
+issn = {0097-8493},
+doi = {https://doi.org/10.1016/j.cag.2021.04.008},
+url = {https://www.sciencedirect.com/science/article/pii/S0097849321000509},
+author = {Teng Li and Shijie Hao and Yanrong Guo},
 }
 ```
 
