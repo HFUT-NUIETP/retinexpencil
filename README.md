@@ -99,4 +99,4 @@ author = {Teng Li and Shijie Hao and Yanrong Guo},
 
 ## License
 
-[MIT](https://github.com/RichardLitt/standard-readme/blob/master/LICENSE) © Richard Littauer
+[MIT](https://github.com/HFUT-NUIETP/retinexpencil/blob/main/LICENSE) © Teng Li
