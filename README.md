@@ -3,9 +3,9 @@ Implementation of "Robust Pencil Drawing Generation via Fast Retinex Decompositi
 
 CAD/Graphics 2021
 
-Visit our  :page_facing_up: [project page](https://www.terrytengli.com/papers/CAG-D-21-00089.html) .
+Visit our  :page_facing_up: [project page](https://hfut-nuietp.github.io/retinexpencil/) .
 
-Paper can be downloaded here :memo: [paper]() .
+Paper can be downloaded here :memo: [paper](https://drive.google.com/uc?export=view&id=1VA6RObeL2BUQdBorKU6IAI6tWM-q9pEf) .
 
 
 
@@ -77,9 +77,9 @@ The proposed Retinex Decomposition method are faster then the previous methods w
 
 ![](https://drive.google.com/uc?export=view&id=1FdOspvqSaRjo7AsMPleHfHa020tOwsxv)
 
-## Reference
+## Visual quality comparisons
 
-Pencil lines generation module in the released code is partly adopted from **[fumin](https://github.com/fumin)**/**[pencil](https://github.com/fumin/pencil)**.
+![](https://drive.google.com/uc?export=view&id=1D8qO0OgLbTn3uH76n-qCPNrNaOUBifRL)
 
 ## Cite Us
 
@@ -97,6 +97,15 @@ author = {Teng Li and Shijie Hao and Yanrong Guo},
 }
 ```
 
+## Acknowledgement
+
+The research was supported by the National Undergraduate In- novation and Entrepreneurship Training Program with Grant No. [202010359089](https://hfut-nuietp.github.io/HFUT-NUIETP).
+
 ## License
 
-[MIT](https://github.com/HFUT-NUIETP/retinexpencil/blob/main/LICENSE) © Teng Li
+[MIT](https://github.com/HFUT-NUIETP/retinexpencil/blob/main/LICENSE) © Teng Li & HFUT-NUIETP
+
+## Reference
+
+> - [CVPR19](): Y. Li, C. Fang, A. Hertzmann, E. Shechtman and M. Yang, "Im2Pencil: Controllable Pencil Illustration From Photographs", 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019, pp. 1525-1534.
+> - [NPAR12](): C. Lu, L. Xu and J. Jia, "Combining sketch and tone for pencil drawing production", Proceedings of the symposium on non-photorealistic animation and rendering, 2012, pp. 65-73.
